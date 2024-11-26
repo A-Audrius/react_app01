@@ -1,24 +1,26 @@
 import { useForm } from "react-hook-form"
-import { DevTool } from "@hookform/devtools";
+// import { DevTool } from "@hookform/devtools";
 
 function YoutubeForm() {
     const { register, control, handleSubmit, reset, watch, formState: { errors } } = useForm({
         mode: "onBlur",
         reValidateMode: "onChange"
-        defaultValues: {
-            username: "",
-            email: "",
-            channel: "",
-        },
+        // defaultValues: {
+        //     username: "",
+        //     email: "",
+        //     channel: "",
+        // },
     });
-    const { username, email } = watch();
+    // const { username, email } = watch();
 
     const formSubmitHandler = (data) => {
         console.log(data);
-        reset();
+        // reset();
         // setValue("username", "");
         // setValue("email", "");
     }
+
+    // <div><Toaster/></div>
     return (
         <>
             <div>
@@ -94,12 +96,12 @@ function YoutubeForm() {
                     </div>
                 </form>
 
-                <DevTool control={control} />
+                {/* <DevTool control={control} /> */}
             </div>
-            <div>
+            {/* <div>
                 <p>{username}</p>
                 <p>{email}</p>
-            </div>
+            </div> */}
         </>
     );
 }

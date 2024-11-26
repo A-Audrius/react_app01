@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "username": "User1",
+      "email": "user1@gmail.com",
+      "channel": "Userchannel",
+      "likes": 23,
+      "id": "1"
+    },
+    {
+      "username": "User3",
+      "email": "user3@gmail.com",
+      "channel": "User cahnnel",
+      "likes": 1,
+      "id": "2"
+    },
+    {
+      "id": "2559",
+      "username": "User1",
+      "email": "user1@gmail.com",
+      "channel": "Userchannel",
+      "likes": 23
+    },
+    {
+      "id": "88db",
+      "username": "User1",
+      "email": "user1@gmail.com",
+      "channel": "Userchannel",
+      "likes": 23
+    },
+ 
+  ]
+}
